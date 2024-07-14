@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2QAwDQbbvN1H03U0VhrEiherRqHpfPMPS/gAansYxq4=",
+  "Source": "HackerNewsApp.Api",
+  "BasePath": "_content/HackerNewsApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

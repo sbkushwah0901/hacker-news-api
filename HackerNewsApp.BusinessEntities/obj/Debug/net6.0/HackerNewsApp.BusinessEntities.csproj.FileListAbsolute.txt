@@ -1,0 +1,12 @@
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\bin\Debug\net6.0\HackerNewsApp.BusinessEntities.deps.json
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\bin\Debug\net6.0\HackerNewsApp.BusinessEntities.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\bin\Debug\net6.0\HackerNewsApp.BusinessEntities.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.csproj.AssemblyReference.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.AssemblyInfoInputs.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.AssemblyInfo.cs
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.csproj.CoreCompileInputs.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\refint\HackerNewsApp.BusinessEntities.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\HackerNewsApp.BusinessEntities.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.BusinessEntities\obj\Debug\net6.0\ref\HackerNewsApp.BusinessEntities.dll

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tSni1MNFZrYF+UJ11hMilit1Khet6MtLI2bjb5M24sx+tvj7vzWMLzsoAg8ud8abosPYrj7nsN4RWTIxsAQasA==",
+  "dgSpecHash": "j/vliLBt4OQKORj4YiVVIFAHENBZ+o3jIg86kNAE3Jxx4/IkHnvtPu1j+Sbx1PiM2DCS7sGIdvs3hDpxJmOh5Q==",
   "success": true,
   "projectFilePath": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.BusinessEntities\\HackerNewsApp.BusinessEntities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Shyam\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

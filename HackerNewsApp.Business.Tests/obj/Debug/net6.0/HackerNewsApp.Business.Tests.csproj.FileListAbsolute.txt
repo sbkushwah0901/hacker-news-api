@@ -402,3 +402,7 @@ F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\obj\Debug\net
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\obj\Debug\net6.0\HackerNewsApp.Business.Tests.genruntimeconfig.cache
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\obj\Debug\net6.0\ref\HackerNewsApp.Business.Tests.dll
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\bin\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\bin\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\bin\Debug\net6.0\HackerNewsApp.Infrastructure.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business.Tests\bin\Debug\net6.0\HackerNewsApp.Infrastructure.pdb

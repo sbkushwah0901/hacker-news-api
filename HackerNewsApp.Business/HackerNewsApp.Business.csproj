@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HackerNewsApp.BusinessEntities\HackerNewsApp.BusinessEntities.csproj" />
+    <ProjectReference Include="..\HackerNewsApp.Repository\HackerNewsApp.Repository.csproj" />
   </ItemGroup>
 
 </Project>

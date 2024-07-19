@@ -13,3 +13,7 @@ F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\obj\Debug\net6.0\Ha
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\obj\Debug\net6.0\refint\HackerNewsApp.Business.dll
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\obj\Debug\net6.0\HackerNewsApp.Business.pdb
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\obj\Debug\net6.0\ref\HackerNewsApp.Business.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\bin\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\bin\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\bin\Debug\net6.0\HackerNewsApp.Infrastructure.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Business\bin\Debug\net6.0\HackerNewsApp.Infrastructure.pdb

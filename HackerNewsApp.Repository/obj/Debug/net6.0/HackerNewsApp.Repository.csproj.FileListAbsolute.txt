@@ -1,0 +1,17 @@
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.Repository.deps.json
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.BusinessEntities.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.BusinessEntities.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.csproj.AssemblyReference.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.AssemblyInfoInputs.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.AssemblyInfo.cs
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.csproj.CoreCompileInputs.cache
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.csproj.CopyComplete
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\refint\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\obj\Debug\net6.0\ref\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.Infrastructure.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Repository\bin\Debug\net6.0\HackerNewsApp.Infrastructure.pdb

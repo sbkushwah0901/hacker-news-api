@@ -1,30 +1,37 @@
-﻿using System.Collections.Generic;
-using System.Net.Http;
-using System.Threading.Tasks;
-using HackerNewsApp.BusinessEntities;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Caching.Memory;
 using Moq;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Net;
+using System.Text.Json;
+using System.Threading.Tasks;
 using Xunit;
+using HackerNewsApp.BusinessEntities;
+using HackerNewsApp.Repository.Interface;
+using Microsoft.Extensions.Configuration;
+using HackerNewsApp.Infrastructure;
+using Moq.Protected;
+using System.Threading;
+using System;
 
 namespace HackerNewsApp.Business.Tests
 {
     public class HackerNewsServiceTests
     {
         private readonly Mock<HttpMessageHandler> _httpMessageHandlerMock;
-        private readonly HttpClient _httpClient;
         private readonly IMemoryCache _memoryCache;
         private readonly HackerNewsService _hackerNewsService;
         private readonly IConfiguration _configuration;
+        private readonly Mock<IHackerNewsRepository> _hackerNewsRepositoryMock;
 
         public HackerNewsServiceTests()
         {
-            _httpMessageHandlerMock = new Mock<HttpMessageHandler>();
-            _httpClient = new HttpClient(_httpMessageHandlerMock.Object);
             _memoryCache = new MemoryCache(new MemoryCacheOptions());
+            _hackerNewsRepositoryMock = new Mock<IHackerNewsRepository>();
             _configuration = new ConfigurationBuilder().AddInMemoryCollection(new Dictionary<string, string>
             { {"NewestStoriesCacheKey", "NewestStories"},{"CacheExpiryTimeInMinutes", "5"}, {"StoriesCount", "200"} }).Build();
-            _hackerNewsService = new HackerNewsService(_httpClient, _memoryCache, _configuration);
+            _hackerNewsService = new HackerNewsService(_memoryCache, _configuration, _hackerNewsRepositoryMock.Object);
         }
 
         [Fact]
@@ -45,6 +52,22 @@ namespace HackerNewsApp.Business.Tests
             Assert.Equal(2, result.Count);
             Assert.Equal("Story 1", result[0].Title);
             Assert.Equal("Story 2", result[1].Title);
+        }
+
+        [Fact]
+        public async Task GetNewestStoriesAsync_ShouldThrowCustomException_WhenNoNewStoryIdsFound()
+        {
+            // Arrange
+            var httpClientMock = new Mock<HttpMessageHandler>();
+            httpClientMock.Protected()
+                .Setup<Task<HttpResponseMessage>>(
+                    "SendAsync",
+                    ItExpr.Is<HttpRequestMessage>(req => req.RequestUri.ToString().Contains("newstories")),
+                    ItExpr.IsAny<CancellationToken>())
+                .Throws(new Exception("Test exception"));
+
+            // Act & Assert
+            await Assert.ThrowsAsync<CustomException>(() => _hackerNewsService.GetNewestStoriesAsync());
         }
     }
 }

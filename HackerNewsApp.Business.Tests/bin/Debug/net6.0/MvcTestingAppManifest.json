@@ -1,4 +1,6 @@
 {
   "HackerNewsApp.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.Business",
-  "HackerNewsApp.BusinessEntities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.BusinessEntities"
+  "HackerNewsApp.BusinessEntities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.BusinessEntities",
+  "HackerNewsApp.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.Infrastructure",
+  "HackerNewsApp.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\Interview\\Assignment\\HackerNewsApp\\HackerNewsApp.Repository"
 }

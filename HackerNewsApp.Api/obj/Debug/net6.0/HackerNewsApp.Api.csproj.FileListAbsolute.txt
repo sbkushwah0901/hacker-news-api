@@ -40,3 +40,9 @@ F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\obj\Debug\net6.0\HackerN
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\obj\Debug\net6.0\ref\HackerNewsApp.Api.dll
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\HackerNewsApp.Infrastructure.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api\bin\Debug\net6.0\HackerNewsApp.Infrastructure.pdb

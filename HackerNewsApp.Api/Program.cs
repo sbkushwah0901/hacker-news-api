@@ -1,5 +1,8 @@
 using HackerNewsApp.Business;
 using HackerNewsApp.Business.Interface;
+using HackerNewsApp.Infrastructure;
+using HackerNewsApp.Repository;
+using HackerNewsApp.Repository.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +19,9 @@ builder.Services.AddCors(options =>
         });
 });
 builder.Services.AddControllers();
-builder.Services.AddHttpClient<IHackerNewsService, HackerNewsService>();
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IHackerNewsRepository, HackerNewsRepository>();
+builder.Services.AddScoped<IHackerNewsService, HackerNewsService>();
 builder.Services.AddMemoryCache();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -34,6 +39,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("AllowSpecificOrigin");
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthorization();
 

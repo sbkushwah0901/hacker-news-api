@@ -128,3 +128,7 @@ F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\obj\Debug\net6.0\H
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\obj\Debug\net6.0\HackerNewsApp.Api.Tests.genruntimeconfig.cache
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\obj\Debug\net6.0\ref\HackerNewsApp.Api.Tests.dll
 F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\bin\Debug\net6.0\HackerNewsApp.Repository.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\bin\Debug\net6.0\HackerNewsApp.Repository.pdb
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\bin\Debug\net6.0\HackerNewsApp.Infrastructure.dll
+F:\Interview\Assignment\HackerNewsApp\HackerNewsApp.Api.Tests\bin\Debug\net6.0\HackerNewsApp.Infrastructure.pdb
